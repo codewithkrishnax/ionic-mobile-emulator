@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -9,7 +10,7 @@ html, body {
 }
 
 .drag-region {
-  -webkit-app-region: drag;  
+  -webkit-app-region: drag;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,17 +36,15 @@ html, body {
 }
 
 webview {
-       /* position: absolute; */
-    z-index: 5;
-    /* border: none; */
-    /* width: 397px; */
-    /* height: 859px; */
-    border-radius: 35px;
-    background: white;
-    -webkit-app-region: no-drag;
-    height: 100%;
-    overflow: hidden;
-    scale: 0.949;
+  /* position: absolute; */
+  z-index: 5;
+  /* border: none; */
+  /* width: 397px; */
+  /* height: 859px; */
+  border-radius: 35px;
+  background: white;
+  -webkit-app-region: no-drag;
+  height: 100%;
+  overflow: hidden;
+  scale: 0.96;
 }
-
-

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -47,3 +48,53 @@
     </script>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mobile Preview</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="wrapper">
+    <div id="frameContainer">
+      <img id="deviceFrame" src="frames/mobile.png" />
+      <webview id="preview" src="http://localhost:8100/" allowpopups></webview>
+      <!-- <div class="" id="url" style="display: none;">
+        <input type="url" placeholder="Enter url to test...">
+      </div> -->
+    </div>
+  </div>
+
+  <script>
+  const frame = document.getElementById("frameContainer");
+  const deviceFrame = document.getElementById("deviceFrame");
+
+  const baseWidth = 430;  // your frame image width
+  const baseHeight = 900; // your frame image height
+
+  function resize() {
+    const ww = window.innerWidth;
+    const wh = window.innerHeight;
+
+    const scale = Math.min(ww / baseWidth, wh / baseHeight);
+    frame.style.transform = `scale(${scale})`;
+    frame.style.transformOrigin = 'top center';
+  }
+
+  // ✅ Wait until everything (image + DOM) is loaded
+  window.addEventListener("load", () => {
+    resize();
+    window.addEventListener("resize", resize);
+  });
+
+  // ✅ Extra safety: re-run once image finishes loading
+  deviceFrame.addEventListener("load", resize);
+</script>
+
+
+
+</body>
+</html>
+>>>>>>> e00af9d (Initial commit)
