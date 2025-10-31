@@ -1,46 +1,37 @@
-<<<<<<< HEAD
+
+
 # 📱 Ionic Mobile Emulator (Electron)
 
-A lightweight custom **Electron-based mobile emulator** designed for **Ionic developers**.  
-It simulates a realistic mobile device frame and automatically loads your local app from `http://localhost:8100` (via `ionic serve`).
+A lightweight **Electron-based emulator** for testing your **Ionic app** inside a realistic mobile frame.
 
 ---
 
 ## ⚙️ Features
-
-✅ Realistic mobile frame using PNG overlay  
-✅ Live reload support via `ionic serve`  
-✅ Custom `.bat` launcher for quick command access  
-✅ Clean and modern UI
+✅ Realistic mobile PNG frame  
+✅ Loads `http://localhost:8100/` automatically  
+✅ Works with Ionic live reload  
+✅ Simple `.bat` launcher for quick use  
 
 ---
 
 ## 🚀 Usage
 
 ### 1️⃣ Start your Ionic project
-
 ```bash
 ionic serve
+````
+
+### 2️⃣ Run the emulator
+
+```bash
+npm start
 ```
-=======
-# 📱 Ionic Mobile Emulator (Electron)
 
-A lightweight custom **Electron-based mobile emulator** designed for **Ionic developers**.  
-It simulates a realistic mobile device frame and automatically loads your local app from `http://localhost:8100` (via `ionic serve`).
+That’s it — your Ionic app will open inside the custom Electron emulator window. 🎉
 
 ---
 
-## ⚙️ Features
-✅ Realistic mobile frame using PNG overlay  
-✅ Live reload support via `ionic serve`  
-✅ Custom `.bat` launcher for quick command access  
-✅ Clean and modern UI  
+## 🧑‍💻 Author
 
----
+**Developed by [CodeWithKrishna](https://github.com/codewithkrishna)**
 
-## 🚀 Usage
-
-### 1️⃣ Start your Ionic project
-```bash
-ionic serve
->>>>>>> e00af9d (Initial commit)
