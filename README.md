@@ -34,7 +34,11 @@ npm start
 
 That’s it — your Ionic app will open inside the custom Electron emulator window. 🎉
 
+---
 
+## 🧑‍💻 Author
+
+**Developed by [CodeWithKrishna](https://github.com/codewithkrishnax)**
 
 
 
