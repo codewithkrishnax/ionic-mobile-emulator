@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  overflow: hidden;
+  -webkit-app-region: drag;
+}
+
+.drag-region {
+  -webkit-app-region: drag;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#frameContainer {
+  position: relative;
+  width: 430px;
+  height: 915px;
+  transform-origin: top left;
+  transition: transform 0.2s ease-in-out;
+}
+
+#deviceFrame {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  object-fit: contain;
+  z-index: 10;
+}
+
+webview {
+       /* position: absolute; */
+    z-index: 5;
+    /* border: none; */
+    /* width: 397px; */
+    /* height: 859px; */
+    border-radius: 35px;
+    background: white;
+    -webkit-app-region: no-drag;
+    height: 100%;
+    overflow: hidden;
+    scale: 0.949;
+}
+
+
