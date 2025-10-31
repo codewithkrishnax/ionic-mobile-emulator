@@ -38,7 +38,7 @@ That’s it — your Ionic app will open inside the custom Electron emulator win
 
 ## 🧑‍💻 Author
 
-**Developed by [CodeWithKrishna](https://github.com/codewithkrishnax)**
+**Developed by [CodeWithKrishnaX](https://github.com/codewithkrishnax)**
 
 
 
