@@ -6,6 +6,11 @@ A lightweight **Electron-based emulator** for testing your **Ionic app** inside 
 
 ---
 
+## 🖼️ Preview
+![Ionic Mobile Emulator Screenshot](preview.png)
+
+---
+
 ## ⚙️ Features
 ✅ Realistic mobile PNG frame  
 ✅ Loads `http://localhost:8100/` automatically  
@@ -34,4 +39,5 @@ That’s it — your Ionic app will open inside the custom Electron emulator win
 ## 🧑‍💻 Author
 
 **Developed by [CodeWithKrishna](https://github.com/codewithkrishna)**
+
 
